@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# SQLite
+web/data/*.db
+web/data/*.db-*
+
+# Build
+web/.output/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

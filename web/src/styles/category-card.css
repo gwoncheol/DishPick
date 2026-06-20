@@ -1,0 +1,20 @@
+.category-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 88px;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  transition: all 0.15s ease;
+}
+
+.category-card:hover {
+  background: #fff1e6;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
